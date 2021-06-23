@@ -20,3 +20,12 @@ b1 = BangunRuang()
 print(b1.info())
 print(b1.hitung_luas())
 
+#POLYMORPHISM: Kemampuan object untuk merespon berbeda, terhadap pemanggilan methode.
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append(pp1)
+daftar_bangun_ruang.append(sg1)
+
+print('\nPolymorphism')
+for bangun_ruang in daftar_bangun_ruang:
+    print(bangun_ruang.info())
+    print(f'Hasil = {bangun_ruang.hitung_luas()}')
